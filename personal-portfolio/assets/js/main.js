@@ -3,7 +3,7 @@
 
 
     // Smooth scrolling using jQuery easing
-    var offsetHeight = 79;
+    var offsetHeight = 83;
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
         var target = $(this.hash);
@@ -30,8 +30,13 @@
 
 
 
+    
+
+
+
 
     $(document).ready(function(){
+
         // Navbar Background change on scroll
         $(document).scroll(function () {
             if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80 ) {
@@ -46,6 +51,10 @@
         $(".navbar-toggler").click(function(){
             $("#topNavbar").toggleClass('click-bg');
         });
+
+
+
+
 
 
         // Testimonial Slider
