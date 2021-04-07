@@ -1,0 +1,17 @@
+/* Used this font */
+@font-face{
+	font-family: "Raleway";
+	src: url("../fonts/Raleway-Regular.eot") format("eot"),
+	url("../fonts/Raleway-Regular.woff") format("woff"),
+	url("../fonts/Raleway-Regular.ttf") format("truetype"),
+	url("../fonts/Raleway-Regular.svg") format("svg");
+}
+
+/* Used this font */
+@font-face{
+	font-family: "Roboto-bold";
+	src: url("../fonts/Roboto-Bold.eot") format("eot"),
+	url("../fonts/Roboto-Bold.woff") format("woff"),
+	url("../fonts/Roboto-Bold.ttf") format("truetype"),
+	url("../fonts/Roboto-Bold.svg") format("svg");
+}

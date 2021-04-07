@@ -1,0 +1,208 @@
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+    .header_area .header_container .navButton {
+        display: block;
+    }
+    .header_area .header_container .header_nav{
+        float: none;
+        margin-top: 80px;
+        border-top: 1px solid #fff;
+    }
+    .header_area .header_container .navbar {
+        display: none;
+    }
+    .header_area .header_container .header_nav ul li {
+        float: none;
+    }
+    .header_area .header_container .header_nav ul li a {
+        margin-right: 0;
+        display: block;
+        line-height: 45px;
+        border-bottom: 1px solid #00000033;
+        text-align: center;
+    }
+    .about_me_area .right_about {
+        padding-left: 25px;
+    }
+    .about_me_area .left_about a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+
+    .social_section {
+        margin-top: 25px;
+    }
+    .about_me_area .right_about .social_icon_head {
+        margin-bottom: 3px;
+        float: none;
+    }
+    .about_me_area .right_about .social_icon_head i {
+        display: none;
+    }
+    .about_me_area .right_about .social_icon {
+        float: none;
+    }
+    .about_me_area .right_about .social_icon li {
+        margin-bottom: 10px;
+    }
+    .about_me_area .right_about .social_icon li a {
+        margin-right: 20px;
+    }
+
+    .skill_area .all_skills .web_dev, .skill_area .all_skills .web_design {
+        width: 100%;
+        float: none;
+    }
+    .skill_area .all_skills .web_dev {
+        margin-bottom: 80px;
+    }
+    .skill_gap {
+        display: none;
+    }
+
+    .services_area .all_services .group_one {
+        float: none;
+        width: 100%;
+        padding-right: 70px;
+    }
+    .services_area .all_services .group_two {
+        float: none;
+        width: 100%;
+        padding-left: 70px;
+    }
+    .contact_area .all_contact .right {
+        margin-top: 35px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .about_me_area .left_about {
+        float: none;
+        max-width: 100%;
+        margin-bottom: 35px;
+    }
+    .about_me_area .right_about {
+        padding-left: 0px;
+        float: none;
+        width: 100%;
+    }
+    .about_me_area {
+        padding-top: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 35px;
+    }
+    .about_me_area .left_about a {
+        /* margin-top: 25px; */
+        display: none;
+    }
+    .social_section {
+        margin-top: 25px;
+    }
+    .about_me_area .right_about .social_icon_head {
+        margin-bottom: 3px;
+        float: none;
+    }
+    .about_me_area .right_about .social_icon_head i {
+        display: none;
+    }
+    .about_me_area .right_about .social_icon {
+        float: none;
+    }
+    .about_me_area .right_about .social_icon li {
+        margin-bottom: 10px;
+    }
+    .about_me_area .right_about .social_icon li a {
+        margin-right: 20px;
+    }
+
+
+    .education_area .timeline::after {
+        left: 5px;
+    }
+    .education_area .timeline .timeline_container {
+        width: 100%;
+    }
+    .education_area .timeline .timeline_container.left {
+        left: 34px;
+    }
+    .education_area .timeline .timeline_container.right {
+        margin-top: 0;
+        left: 6px;
+    }
+    .education_area .timeline .timeline_container.left::after {
+        left: -50px;
+    }
+    .education_area .timeline .timeline_container.right::after {
+        left: -22px;
+    }
+
+    .education_area .timeline .timeline_container.left::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+        left: -8px;
+    }
+ 
+    .education_area .timeline .timeline_container::after {
+        margin-left: 3px;
+    }
+
+
+    .portfolio_area .portfolio_main .portfolio_menu .filter_list li {
+        margin-right: 0;
+        display: block;
+    }
+
+}
+@media only screen and (min-width: 768px) {
+    .header_area .header_container .header_nav {
+        display: block;
+    }
+    .container {
+        max-width: 100%;
+    }
+    
+    .about_me_area .right_about .social_icon li {
+        margin-bottom: 10px;
+    }
+    .about_me_area .right_about .social_icon_head i {
+        display: none;
+    }
+    .social_section {
+        margin-top: 10px;
+    }
+    .about_me_area .right_about .social_icon_head {
+        margin-bottom: 3px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .container {
+        max-width: 100%;
+    }
+    .about_me_area .right_about .social_icon_head i {
+        display: inline-block;
+    }
+    .social_section {
+        margin-top: 35px;
+    }
+    
+}
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1180px;
+    }
+    .about_me_area .right_about .social_icon_head i {
+        display: inline-block;
+    }
+    .social_section {
+        margin-top: 35px;
+    }
+    .about_me_area .right_about .social_icon_head {
+        margin-bottom: 3px;
+    }
+}
